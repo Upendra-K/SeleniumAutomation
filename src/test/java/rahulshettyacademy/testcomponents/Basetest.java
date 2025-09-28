@@ -59,7 +59,7 @@ public class Basetest {
 			options.addArguments("--disable-save-password-bubble");
 			options.addArguments("--no-first-run");
 			options.addArguments("--no-default-browser-check");
-			options.addArguments("headless");
+		//	options.addArguments("headless");
 
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver(options);
